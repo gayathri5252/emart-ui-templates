@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<style>
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+
+color: Light;
+text-align: center;
+}
+
+ .card-width
+{
+width:300px;
+}
+
+.price-color
+{
+color:black;
+}
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md bg-secondary navbar-light">
+  <a class="navbar-brand text-white" href="#">
+<i class="material-icons align-middle">store</i>
+eMart</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item ">
+        <a class="nav-link text-white" href="product_list.html">Product_list</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link text-white" href="opencart.html">cart</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link text-white" href="purchasehistory.html">purchasehistroy</a>
+      </li>  
+      <li class="nav-item ">
+        <a class="nav-link text-white" href="login.html">Logout</a>
+      </li>   
+    </ul>
+  </div>  
+</nav>
+<div class="container mt-3 card-width">
+<div class="card card-align">
+<div class="card-header">Cart</div>
+
+  <ul class="list-group">
+    <li class="list-group-item d-flex justify-content-between">
+     <span id="list-content-size">Television</span>
+      <span class="price-color align-right">15000
+<i class="material-icons align-right">delete_forever</i>
+      </span>
+    </li>
+   
+    <li class="list-group-item d-flex justify-content-between">
+      <span id="list-content-size">Mobile</span>
+       <span class="price-color align-right">15000
+       <i class="material-icons align-right">delete_forever</i>
+      </span>
+    </li>
+<li class="list-group-item d-flex justify-content-between">
+      <span id="list-content-size">Total</span>
+       <span class="price-color align-right">Rs.30000
+      </span>
+   
+    </li>
+  </ul>
+<button class="float-right"><a href="viewbill.html">Check out</a></button>
+</div>
+<div class="footer bg-secondary text-white">
+<p>© 2020. Rights Reserved.</small></p>
+</div>
+</body>
+</html>

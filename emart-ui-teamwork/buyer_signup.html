@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Card</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<style>
+ .card-width
+{
+width:350px;
+}
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+
+color: Light;
+text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-md bg-secondary navbar-light">
+  <a class="navbar-brand text-white" href="#">
+<i class="material-icons align-middle">store</i>
+eMart</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item ">
+        <a class="nav-link text-white" href="login.html">Login</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link text-white" href="buyer_signup.html">Buyer Sign-Up</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link text-white" href="Seller_signup.html">Seller Sign-up</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+<div class="container">
+<div class="row mt-5">
+
+<div class="col"></div>
+  <div class="col-md-3 set-md-3">
+  <div class="card card-width ">
+      <div class="card-header">
+       Buyer signup
+        </div>
+               <div class="card-body">
+                      <form action="">
+                              <div class="row">
+                               <div class="col">
+                                      <div class="form-group">
+                                             <label for="username">User Name:</label>
+                                              <input type="text" class="form-control" placeholder="Enter UserName" id="username">
+                                       </div> 
+                               </div>
+                             </div>
+
+                                <div class="row">
+                                <div class="col">
+                                  <div class="form-group">
+                                       <label for="firstname">First Name:</label>
+                                      <input type="text" class="form-control" placeholder="Enter FirstName" id="firstname">
+                                   </div>
+             
+                                  </div>
+                            <div class="col">
+                               <div class="form-group">
+                                
+                                    <label for="lastname">Last Name:</label>
+                                  <input type="text" class="form-control" placeholder="Enter LastName" id="lastname">
+                             </div> 
+                            </div>
+                         </div>
+                           <div class="row">
+                                <div class="col">
+                                       <div class="form-group">
+                                            <label for="password">Password</label>
+                                            <input type="password" class="form-control" placeholder="Enter Password" id="password">
+                                           </div>
+                                            </div>
+                                 <div class="col">
+                                       <div class="form-group">
+                                            <label for="confirmpassword">Confirm Password</label>
+                                            <input type="password" class="form-control" placeholder="Enter Confirm Password" id="password">
+                                           </div>
+                                            </div>
+                                            </div>
+                                 <div class="row">
+                                <div class="col">
+                                       <div class="form-group">
+                                            <label for="emailid">Email Id</label>
+                                            <input type="email" class="form-control" placeholder=" Enter Email id" id="emailid">
+                                           </div>
+                                            </div>
+                                <div class="col">
+                                       <div class="form-group">
+                                            <label for="mobileno">Mobile No</label>
+                                            <input type="email" class="form-control" placeholder="Enter Mobile no" id="mobileno">
+                                           </div>
+                                            </div>
+                                            </div>
+                                  <div class="row">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-primary">Sign up</button>
+                                      </div>
+                                      </div>
+                    </form>
+</div>
+</div>
+</div>
+<div class="col"></div>
+
+</div>
+
+</div>
+<div class="footer bg-secondary text-white">
+<p>© 2020. Rights Reserved.</small></p>
+</div>
+</body>
+</html>

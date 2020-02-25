@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Card</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<style>
+ .card-width
+{
+width:250px;
+}
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+
+color: Light;
+text-align: center;
+}
+
+
+</style>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-md bg-secondary navbar-light">
+  <a class="navbar-brand text-white" href="#">
+<i class="material-icons align-middle">store</i>
+eMart</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item ">
+        <a class="nav-link text-white" href="login.html">Login</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link text-white" href="buyer_signup.html">Buyer Sign-Up</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link text-white" href="Seller_signup.html">Seller Sign-up</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+<div class="container">
+<div class="row mt-5">
+
+<div class="col"></div>
+<div class="col sm-12 md-6 lg-6">
+<div class="card card-width">
+<div class="card-header">
+Login
+</div>
+<div class="card-body">
+  <form action="">
+    <div class="form-group">
+       <label for="username">user Name:</label>
+       <input type="text" class="form-control" placeholder="Enter username" id="username">
+    </div>
+     <div class="form-group">
+       <label for="password">password:</label>
+       <input type="password" class="form-control" placeholder="password" id="password">
+    </div> 
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+</div>
+</div>
+<div class="col"></div>
+</div>
+
+</div>
+
+<div class="footer bg-secondary text-white">
+<p>© 2020. Rights Reserved.</small></p>
+</div>
+</body>
+</html>
